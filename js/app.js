@@ -16,7 +16,7 @@ const settings = {
     particleSize: 3,
     particleSpeed: 5,
     particleLifespan: 100,
-    particleColor: '#00ffff',
+    particleColor: '#FFFFFF', // Default to white for better visibility
     useMouseFollow: true
 };
 
@@ -37,9 +37,8 @@ function initParticles() {
  * Animation loop
  */
 function animate() {
-    // Clear canvas with semi-transparent black for trail effect
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    // Clear canvas with transparent background to see the image behind
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     
     // Update and draw particles
     for (const particle of particles) {
