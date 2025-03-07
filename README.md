@@ -1,6 +1,6 @@
 # Interactive Particle System
 
-A visually engaging particle system that follows the mouse cursor with adjustable controls, built using HTML5 Canvas and JavaScript.
+A visually engaging particle system that follows the mouse cursor with adjustable controls, built using HTML5 Canvas and JavaScript. The system features a stylish red background image with a person in a modern chair.
 
 ## Live Demo
 
@@ -9,6 +9,7 @@ Visit the live demo at: [https://iphonz.github.io/particle-system/](https://ipho
 ## Features
 
 - Interactive particles that follow the mouse cursor
+- Stylish background image with modern aesthetics
 - Real-time controls for customizing the particle behavior
 - Adjustable parameters:
   - Particle count
@@ -17,7 +18,7 @@ Visit the live demo at: [https://iphonz.github.io/particle-system/](https://ipho
   - Particle lifespan
   - Particle color
   - Toggle mouse following on/off
-- Smooth animation with a subtle trail effect
+- Transparent particle effects that blend with the background
 - Responsive design that works on desktop and mobile devices
 
 ## How to Use
@@ -28,7 +29,7 @@ Visit the live demo at: [https://iphonz.github.io/particle-system/](https://ipho
    - **Size**: Change how large the particles appear
    - **Speed**: Adjust how quickly particles move toward the cursor
    - **Lifespan**: Control how long particles exist before respawning
-   - **Particle Color**: Pick any color for the particles
+   - **Particle Color**: Pick any color for the particles (default is white for visibility)
    - **Follow Mouse**: Toggle the mouse-following behavior on or off
 
 ## Technical Implementation
@@ -36,14 +37,15 @@ Visit the live demo at: [https://iphonz.github.io/particle-system/](https://ipho
 The system is built with:
 - HTML5 Canvas API for rendering
 - Object-oriented JavaScript for particle management
-- CSS for styling the controls
+- CSS for styling the controls and background display
 
 ### Code Structure
 
 - `index.html`: Main HTML file with canvas and controls
-- `css/styles.css`: Styling for the interface
+- `css/styles.css`: Styling for the interface and background
 - `js/particle.js`: Particle class implementation
 - `js/app.js`: Main application logic and event handling
+- `images/background.jpg`: Background image
 
 ## Local Development
 
