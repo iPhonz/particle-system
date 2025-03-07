@@ -16,7 +16,7 @@ const settings = {
     particleSize: 3,
     particleSpeed: 5,
     particleLifespan: 100,
-    particleColor: '#FFFFFF', // Default to white for better visibility
+    particleColor: '#FFFFFF', // Default to white for better visibility on red
     useMouseFollow: true
 };
 
@@ -37,7 +37,7 @@ function initParticles() {
  * Animation loop
  */
 function animate() {
-    // Clear canvas with transparent background to see the image behind
+    // Clear canvas with transparent background to see the red background
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
     // Update and draw particles
