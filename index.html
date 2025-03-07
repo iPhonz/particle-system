@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Particle System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="controls">
+        <h3>Particle Settings</h3>
+        <div class="control-group">
+            <label for="particleCount">Particle Count: <span id="particleCountValue">100</span></label>
+            <input type="range" id="particleCount" min="10" max="500" value="100">
+        </div>
+        <div class="control-group">
+            <label for="particleSize">Size: <span id="particleSizeValue">3</span></label>
+            <input type="range" id="particleSize" min="1" max="10" value="3">
+        </div>
+        <div class="control-group">
+            <label for="particleSpeed">Speed: <span id="particleSpeedValue">5</span></label>
+            <input type="range" id="particleSpeed" min="1" max="20" value="5">
+        </div>
+        <div class="control-group">
+            <label for="particleLifespan">Lifespan: <span id="particleLifespanValue">100</span></label>
+            <input type="range" id="particleLifespan" min="20" max="200" value="100">
+        </div>
+        <div class="control-group">
+            <div class="color-label">Particle Color:</div>
+            <input type="color" id="particleColor" value="#00ffff">
+        </div>
+        <div class="control-group">
+            <label for="useMouseFollow">Follow Mouse</label>
+            <input type="checkbox" id="useMouseFollow" checked>
+        </div>
+    </div>
+    <script src="js/particle.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
