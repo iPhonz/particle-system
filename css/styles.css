@@ -2,12 +2,9 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000;
+    background-color: #c62828;
     font-family: Arial, sans-serif;
-    background-image: url('../images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    color: white;
 }
 
 #canvas {
