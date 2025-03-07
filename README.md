@@ -1,6 +1,6 @@
 # Interactive Particle System
 
-A visually engaging particle system that follows the mouse cursor with adjustable controls, built using HTML5 Canvas and JavaScript. The system features a stylish red background image with a person in a modern chair.
+A visually engaging particle system that follows the mouse cursor with adjustable controls, built using HTML5 Canvas and JavaScript. The system features a bold red background inspired by the reference image.
 
 ## Live Demo
 
@@ -9,7 +9,7 @@ Visit the live demo at: [https://iphonz.github.io/particle-system/](https://ipho
 ## Features
 
 - Interactive particles that follow the mouse cursor
-- Stylish background image with modern aesthetics
+- Vibrant red background with modern aesthetics
 - Real-time controls for customizing the particle behavior
 - Adjustable parameters:
   - Particle count
@@ -45,7 +45,6 @@ The system is built with:
 - `css/styles.css`: Styling for the interface and background
 - `js/particle.js`: Particle class implementation
 - `js/app.js`: Main application logic and event handling
-- `images/background.jpg`: Background image
 
 ## Local Development
 
