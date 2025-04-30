@@ -1,6 +1,6 @@
 # Interactive Particle System
 
-A visually engaging particle system that follows the mouse cursor with adjustable controls, built using HTML5 Canvas and JavaScript. The system features a stylish red background image with a person in a modern chair.
+A visually engaging particle system that follows the mouse cursor with adjustable controls, built using HTML5 Canvas and JavaScript. Great way to waste time :)
 
 ## Live Demo
 
@@ -18,8 +18,8 @@ Visit the live demo at: [https://iphonz.github.io/particle-system/](https://ipho
   - Particle lifespan
   - Particle color
   - Toggle mouse following on/off
-- Transparent particle effects that blend with the background
-- Responsive design that works on desktop and mobile devices
+- Transparent particle effects that blend with the background (background image is broken)
+- Responsive design that works on desktop and mobile devices 
 
 ## How to Use
 
@@ -62,7 +62,7 @@ No build process or dependencies are required as the project uses vanilla JavaSc
 
 ## License
 
-MIT License - Feel free to use and modify for your own projects.
+MIT License - Feel free to use and modify for your own projects. Or pay me because I'm smart.
 
 ## Credits
 
